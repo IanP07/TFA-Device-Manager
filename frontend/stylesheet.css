@@ -1,0 +1,75 @@
+#inputBox {
+    display: flex; /* or `display: grid;` */
+    justify-content: center; /* horizontal centering */
+    padding-top: 20px; /* adjust this value to move down */
+}
+
+#add-name-btn {
+    font-family: monospace;
+}
+
+#search-btn {
+    font-family: monospace;
+}
+
+label {
+    font-family: monospace;
+    font-weight: 900;
+    padding-top: 30px;
+    padding-right: 10px; 
+    font-size: larger;
+}
+
+
+table {
+    margin: 40px auto;
+}
+
+table, th, td {
+    font-family: monospace;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+th, td {
+    padding: 10px;
+}
+
+
+
+/* Style stuff */
+th {
+    background-color: #f4f4f4; /* Light gray background for headers */
+    font-weight: bold; /* Bold header text */
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Zebra striping for rows */
+}
+
+/* Input Styles */
+input[type="text"], input[type="email"], input[type="password"], textarea {
+    padding: 10px; /* Add padding */
+    margin: 8px 0; /* Space around input */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    box-sizing: border-box; /* Include padding in width */
+    font-size: 16px; /* Font size */
+}
+
+/* Button Styles */
+button {
+    background-color: #007BFF; /* Blue background */
+    color: white; /* White text */
+    border: none; /* No border */
+    padding: 18px 25px; /* Padding around text */
+    border-radius: 10px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 18px; /* Font size */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}

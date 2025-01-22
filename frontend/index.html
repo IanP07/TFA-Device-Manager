@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TFA Device Manager</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <main>
+        <div id="inputBox">
+            <label id="deviceName">Device Name: </label>
+            <input type="text" id="name-input">
+            <button id="add-name-btn">Add Device</button>
+        </div>
+
+
+
+        <table id="table">
+            <thead>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Date Added</th>
+                <th>Delete</th>
+                <th>Edit</th>
+            </thead>
+            <tbody></tbody>   <!-- will be added dynamically with js-->
+        </table>
+    </main>
+    
+    <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-database-compat.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
